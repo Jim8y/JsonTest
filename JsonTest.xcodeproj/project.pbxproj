@@ -14,6 +14,7 @@
 		5B835F1B1B99D5A600D9CF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B835F1A1B99D5A600D9CF6E /* Images.xcassets */; };
 		5B835F1E1B99D5A600D9CF6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B835F1C1B99D5A600D9CF6E /* LaunchScreen.xib */; };
 		5B835F2A1B99D5A600D9CF6E /* JsonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B835F291B99D5A600D9CF6E /* JsonTestTests.m */; };
+		5B835F361B99D5D900D9CF6E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B835F351B99D5D900D9CF6E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5B835F231B99D5A600D9CF6E /* JsonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B835F281B99D5A600D9CF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B835F291B99D5A600D9CF6E /* JsonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonTestTests.m; sourceTree = "<group>"; };
+		5B835F341B99D5D900D9CF6E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		5B835F351B99D5D900D9CF6E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		5B835F0C1B99D5A600D9CF6E /* JsonTest */ = {
 			isa = PBXGroup;
 			children = (
+				5B835F331B99D5D900D9CF6E /* JSONKit */,
 				5B835F111B99D5A600D9CF6E /* AppDelegate.h */,
 				5B835F121B99D5A600D9CF6E /* AppDelegate.m */,
 				5B835F141B99D5A600D9CF6E /* ViewController.h */,
@@ -117,6 +121,15 @@
 				5B835F281B99D5A600D9CF6E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B835F331B99D5D900D9CF6E /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B835F341B99D5D900D9CF6E /* JSONKit.h */,
+				5B835F351B99D5D900D9CF6E /* JSONKit.m */,
+			);
+			path = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				5B835F161B99D5A600D9CF6E /* ViewController.m in Sources */,
 				5B835F131B99D5A600D9CF6E /* AppDelegate.m in Sources */,
+				5B835F361B99D5D900D9CF6E /* JSONKit.m in Sources */,
 				5B835F101B99D5A600D9CF6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
