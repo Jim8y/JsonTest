@@ -11,6 +11,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)changeView:(id)sender;
 
 @end
 
